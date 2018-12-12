@@ -26,13 +26,13 @@ Description: Online Movie,Vedio and TV Show HTML Template
 /*----------------------------------
 --------- THEME DEFAULT CSS --------
 ----------------------------------*/
-@import url('https://fonts.googleapis.com/css?family=Cairo:300,400,500,600,700,900');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,900');
 body {
     line-height: 24px;
     font-size: 14px;
     color: #b6b7b9;
 	background: #13151f;
-	font-family: 'Cairo', sans-serif;
+	font-family: 'Raleway', sans-serif !important;
     font-weight: 400;
     position: relative;
 }
@@ -424,7 +424,7 @@ option {
 }
 
 .hero-area-slide {
-    background: #13151f;
+    background: #000000;
     margin: 320px 15px 50px;
     padding-top: 52px;
     box-shadow: 0 0 20px #000000;
@@ -1411,3 +1411,21 @@ border-radius: 10px;
     width: 50px;
     border-radius: 50%;
 }
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 160px; height: 0; overflow: hidden;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    }
+    
+    .video-container iframe,
+    .video-container object,
+    .video-container embed {
+    position: absolute;
+   bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 120%;
+    }
